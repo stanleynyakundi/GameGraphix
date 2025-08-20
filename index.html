@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameGraphix - Next-Gen Gaming Graphics</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">GameGraphix</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Products <i class="fa fa-chevron-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Graphics Cards</a></li>
+            <li><a href="#">VR Headsets</a></li>
+            <li><a href="#">Gaming Laptops</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Solutions <i class="fa fa-chevron-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Game Development</a></li>
+            <li><a href="#">Cloud Gaming</a></li>
+            <li><a href="#">Streaming Services</a></li>
+          </ul>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="search-section">
+        <input type="text" placeholder="Search...">
+        <button><i class="fa fa-search"></i></button>
+      </div>
+      <div class="user-section">
+        <button class="signup-btn">Sign Up</button>
+        <img src="user.png" class="user-img" alt="User">
+      </div>
+      <div class="mobile-menu"><i class="fa fa-bars"></i></div>
+    </nav>
+  </header>
+
+ <!-- Hero Section with Image Background -->
+<section class="hero" style="background: url(images/bg.jpg) center/cover no-repeat; position: relative;">
+  <!-- Overlay -->
+  <div class="hero-overlay" style="position: absolute; inset: 0; background-color: rgba(0,0,0,0.5);"></div>
+
+  <!-- Hero Content -->
+  <div class="hero-content" style="position: relative; z-index: 10; text-align: center; color: white; padding: 100px 20px;">
+    <h1>Unleash Ultimate Graphics</h1>
+    <p>Experience the next generation of gaming technology where imagination meets stunning visuals.</p>
+    <button class="cta-btn">Explore Now</button>
+  </div>
+</section>
+
+
+  <!-- Showcase Section -->
+  <section class="showcase">
+    <h2>Our Revolutionary Tech</h2>
+    <div class="showcase-grid">
+      <div class="showcase-item">
+        <img src="images/ultra graphics card.jpg" alt="Ultra Graphics Card">
+        <h3>Ultra Graphics Cards</h3>
+        <p>Push the boundaries of performance with our cutting-edge GPUs.</p>
+      </div>
+      <div class="showcase-item">
+        <img src="images/vr.jpg" alt="VR Experience">
+        <h3>Virtual Reality</h3>
+        <p>Step into new worlds with our immersive VR technology.</p>
+      </div>
+      <div class="showcase-item">
+        <img src="images/gaming lPTOP.jpg" alt="Gaming Laptop">
+        <h3>Gaming Laptops</h3>
+        <p>Portable power with uncompromised performance on the go.</p>
+      </div>
+      <div class="showcase-item">
+        <img src="images/cloud gaming.jpg" alt="Cloud Gaming">
+        <h3>Cloud Gaming</h3>
+        <p>Access your favorite games anytime, anywhere.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>What We Offer</h2>
+    <div class="cards">
+      <div class="card">
+        <i class="fa fa-cog"></i>
+        <h3>Custom Builds</h3>
+        <p>Bespoke gaming rigs designed for peak performance.</p>
+      </div>
+      <div class="card">
+        <i class="fa fa-rocket"></i>
+        <h3>Performance Tuning</h3>
+        <p>Optimize your system to deliver maximum frame rates.</p>
+      </div>
+      <div class="card">
+        <i class="fa fa-cloud"></i>
+        <h3>Cloud Solutions</h3>
+        <p>Innovative cloud-based gaming solutions and support.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Signup Section -->
+  <section class="signup">
+    <h2>Join the Revolution</h2>
+    <form class="signup-form">
+      <input type="text" placeholder="Your Gamertag" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Create Account</button>
+    </form>
+  </section>
+
+  <!-- Testimonials Section with Slider -->
+  <section class="testimonials">
+    <h2>What Our Gamers Say</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial active">
+        <p>“GameGraphix revolutionized my gaming experience – the graphics are insanely detailed!”</p>
+        <h4>- Alex, Pro Gamer</h4>
+      </div>
+      <div class="testimonial">
+        <p>“Their custom builds and tuning services pushed my system to new heights.”</p>
+        <h4>- Sam, Esports Champion</h4>
+      </div>
+      <div class="testimonial">
+        <p>“The VR and cloud gaming solutions are ahead of their time. Pure innovation!”</p>
+        <h4>- Jamie, Tech Enthusiast</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Solutions</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="social-links">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-discord"></i></a>
+    </div>
+    <p>&copy; 2025 GameGraphix. All rights reserved.</p>
+  </footer>
+
+  <!-- Modal for Sign Up -->
+  <div class="modal" id="signup-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Sign Up</h2>
+      <form class="modal-signup-form">
+        <input type="text" placeholder="Your Gamertag" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Join Now</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
